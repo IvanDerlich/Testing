@@ -12,7 +12,7 @@ function plusMinus(arr = []) {
         arr[i] == 0 ? zeroes   += 1 : 0;
     }
 
-     positive/ total, negative/ total, zeroes/ total];
+    return [ positive/ total, negative/ total, zeroes/ total];
 }
 
 function assert(input, expected) {
